@@ -1,0 +1,12 @@
+title  "source-garden-www"
+description  "Source Garden's Website"
+media-type  "webview"
+tags  "code"  "web"
+license  "MIT"
+homepage  "https://source.garden"
+
+
+mirrors{
+  github  "https://github.com/source-garden/www"
+  gitlab  "https://gitlab.com/dym-sh/source-garden-www"
+}
