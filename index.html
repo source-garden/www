@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<meta charset='utf8'>
+<title>Source Garden</title>
+<meta name='description' content='display and interact with the source code in a reasonable way' />
+
+<meta property='og:site_name' content='Source Garden' />
+<meta property='og:title' content='Source Garden' />
+<meta property='og:type' content='website' />
+<meta property='og:url' content='https://source.garden' />
+<meta property='og:image' content='https://source.garden/th.png' />
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:site' content='@SourceDotGarden' />
+
+<link rel='icon' type='image/png' sizes='300x300' href='https://source.garden/icon.png' />
+<link rel='apple-touch-icon' type='image/png' sizes='300x300' href='https://source.garden/icon.png' />
+
+<style>
+:root
+{ --light : #eee
+; --dark : #222
+; --text : #222
+; --bg : #04b0fa
+}
+
+* { all : unset
+; margin : 0
+; padding : 0
+; word-wrap : break-word
+; box-sizing : border-box
+; flex-wrap : wrap
+; color : var( --text )
+; font-size : 16pt
+; line-height : 1.5em
+; font-family : 'PT Mono'
+              , 'DejaVu Sans Mono'
+              , 'Menlo'
+              , 'Consolas'
+              , 'Monaco'
+              , monospace
+}
+
+head > *
+, title
+, style
+, script
+, [hidden]
+{ display : none }
+
+body
+{ background : var( --bg )
+; display : flex
+; justify-content : center
+; align-items : center
+; height : 100vh
+; width : 100vw
+}
+
+a, h1 { text-decoration : underline solid var( --dark ) 0.075em
+; text-underline-offset : 0.text
+; border : 0.075em solid var( --dark )
+; box-shadow : 0 0 0 0.075em var( --light )
+; background : var( --light )
+; color : var( --dark )
+; border-radius : 2em
+; padding : 0.4em 1em
+; cursor : pointer
+}
+
+h1
+{ font-size : 3rem
+}
+
+footer
+{ position : absolute
+; bottom : 0
+; right : 0
+; margin : 2em
+}
+
+.text
+{ margin-left: 2rem;
+}
+</style>
+
+
+<h1>
+Source Garden
+</h1>
+
+<footer>
+<a href='https://github.com/source-garden' target='_blank'>Github</a>
+<a href='mailto:contact@source.garden'>Email</a>
+
+<span class="text">/by</span> <a href='https://dym.sh' target='_blank'>Dym Sohin</a>
+</footer>
